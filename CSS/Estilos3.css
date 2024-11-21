@@ -1,0 +1,69 @@
+*{
+    font-family:"Itim", cursive;;
+}
+.titulo {
+    font-family: "Rubik Wet Paint";;
+    font-size: 25px;
+    background-color: #FFCAD4;
+}
+.title{
+    font-family:"Kablammo", system-ui;
+    font-size: 30px;
+    background-color: #9D8189;
+}
+[type="text"]{
+    border: 2px solid ;
+}
+input[type]{
+    background-color: #D8E2DC;
+}
+input[type="text"]:focus{
+    background-color:#FFE5D9 ;
+}
+#headings{
+    background-color: #D8E2DC;
+}
+#phrasing{
+    background-color: #FFE5D9;
+}
+#forms{
+    background-color: #C997A0;
+}
+#embeds{
+    background-color:#FFCAD4;
+}
+a[href^="https://"]{
+    font-size: 20px;
+    color: #9D8189 ;
+    border: 2px solid #D8E2DC;
+}
+button:active{
+    background-color: #d6d3f0;
+}
+button{
+    background-color:#FFE5D9;
+}
+a:hover{
+    color:#F4ACB7 ;
+}
+ul li::marker{
+    content: "🧠";
+}
+ul li ul li::marker{
+    content: "🤠";
+}
+ul li ul li ul li::marker{
+    content: "🫀";
+}
+.menu{
+    background-color:#F4ACB7;
+}
+.list{
+    background-color: #D8E2DC;
+}
+input:focus {
+    border: 3px solid #9D8189;
+}
+input:disabled {
+    color:#FFCAD4;
+}
